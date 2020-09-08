@@ -21,7 +21,7 @@ class banqueiro:
 
             indice += 1
 
-            if check == 4:
+            if check == len(requisicoes):
                 return requisicoes, indice
 
         return 'deadlock'
